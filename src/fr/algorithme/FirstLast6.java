@@ -17,7 +17,7 @@ public class FirstLast6 {
 		// TODO Auto-generated method stub
 		 List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9);
 		ArrayList<Integer> array = new ArrayList<Integer>();
-	    array.addAll(list);
+		array.addAll(list);
 		boolean tabcond = false;
 		if(array.size() >1 && array.get(0) == 6 || array.get(array.size()-1) == 6) {
 			System.out.println(tabcond = true);
